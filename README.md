@@ -4,10 +4,9 @@ LegisTax is an AI-powered research assistant designed to help accountants effici
 
 ### Features
 1. AI-Powered Search: Quickly retrieve relevant international tax law information using a combination of keyword search and vector embeddings.
-2. Document Processing Pipeline: Extracts and preprocesses text from large PDF collections using Apache Tika or PyMuPDF.
-3. Retrieval-Augmented Generation (RAG): Combines FAISS/Pinecone for semantic search and Elasticsearch for keyword-based retrieval.
-4. User-Friendly Interface: An interactive web-based search tool built with Streamlit or Flask.
-5. Cost Optimization: Reduces token consumption and API calls by implementing query filtering and selective LLM usage.
+2. Document Processing Pipeline: Extracts and preprocesses text from large PDF collections using PyMuPDF.
+3. Retrieval: Combines FAISS for semantic search and BM25 for keyword-based retrieval.
+4. User-Friendly Interface: An interactive web-based search tool built with Streamlit.
 
 ### Contributing
 I welcome contributions! Please:
@@ -18,3 +17,13 @@ I welcome contributions! Please:
 
 ### License
 This project is licensed under the MIT License
+
+### How to run
+Simply install dependencies by running the following command:
+```
+> pip install -r requirements.txt
+```
+Then, run the following command to start the application locally:
+```
+> streamlit run app.py 
+```
