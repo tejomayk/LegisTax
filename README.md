@@ -1,6 +1,6 @@
 # LegisTax - AI-Powered Research Assistant for International Tax Law
 ### Overview
-LegisTax is an AI-powered research assistant designed to help accountants efficiently navigate large collections of international tax law documents. By leveraging advanced natural language processing, retrieval-augmented generation (RAG), and hybrid search techniques, LegisTax streamlines legal research, saving time and improving accuracy.
+LegisTax is an AI-powered research assistant designed to help accountants efficiently navigate large collections of international tax law documents. By leveraging advanced natural language processing, retrieval, and hybrid search techniques, LegisTax streamlines legal research, saving time and improving accuracy.
 
 ### Features
 1. AI-Powered Search: Quickly retrieve relevant international tax law information using a combination of keyword search and vector embeddings.
